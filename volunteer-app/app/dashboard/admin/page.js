@@ -89,7 +89,7 @@ export default function AdminDashboard() {
       <div className={styles.welcomeSection}>
         <div className={styles.welcomeText}>
           <h1>Welcome back, {currentUser?.firstName || 'Admin'}! </h1>
-          <p>Here's what's happening with your volunteer community today.</p>
+          <p>Here  what is happening with your volunteer community today.</p>
         </div>
       </div>
 
