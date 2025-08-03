@@ -136,7 +136,7 @@ export default function VolunteerDashboard() {
     <div className={styles.dashboardContent}>
       <div className={styles.welcomeSection}>
         <div className={styles.welcomeText}>
-          <h1>Welcome back, {currentUser?.firstName || 'Volunteer'}! 🌟</h1>
+          <h1>Welcome back, {currentUser?.firstName || 'Volunteer'}! </h1>
           <p>Thank you for your dedication to making a difference in our community.</p>
         </div>
       </div>

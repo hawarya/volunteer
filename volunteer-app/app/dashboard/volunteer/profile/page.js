@@ -16,7 +16,7 @@ export default function VolunteerProfilePage() {
       const mockProfile = {
         firstName: user.firstName || 'Aishwarya',
         lastName: user.lastName || 'Vijayakumar',
-        email: user.email || 'aish@gmail.com',
+        email: user.email || 'example@gmail.com',
         phone: user.phone || '9876543210',
         skills: user.skills || 'Event Management, Communication, Leadership',
         availability: user.availability || 'weekends',

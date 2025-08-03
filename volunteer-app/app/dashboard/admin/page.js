@@ -50,13 +50,6 @@ export default function AdminDashboard() {
       icon: '📋',
       action: () => router.push('/dashboard/admin/assignments'),
       color: '#d69e2e'
-    },
-    {
-      title: 'View Reports',
-      description: 'Generate volunteer activity reports',
-      icon: '📊',
-      action: () => alert('Reports feature coming soon!'),
-      color: '#9f7aea'
     }
   ];
 
@@ -95,7 +88,7 @@ export default function AdminDashboard() {
     <div className={styles.dashboardContent}>
       <div className={styles.welcomeSection}>
         <div className={styles.welcomeText}>
-          <h1>Welcome back, {currentUser?.firstName || 'Admin'}! 👋</h1>
+          <h1>Welcome back, {currentUser?.firstName || 'Admin'}! </h1>
           <p>Here's what's happening with your volunteer community today.</p>
         </div>
       </div>
